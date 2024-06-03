@@ -101,6 +101,8 @@ Arch Linux. Wayfarer is in the AUR [wayfarer-git](https://aur.archlinux.org/pack
 Other requirements:
 
 * Desktop specific visual portal selector (e.g. `xdg-desktop-portal-gnome`.
+* Install dependencies on Ubuntu: `sudo apt install meson valac libglib2.0-dev libgtk2.0-dev libpoppler-glib-dev libdbus-glib-1-dev libgstreamer1.0-dev libglade2-dev libsqlite3-dev libgnome-desktop-3-dev libgnome-menu-3-dev libgirepository1.0-dev gobject-introspection libgtk-4-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libpulse-mainloop-glib0 libpulse-dev`
+
 
 The build system is meson / ninja, e.g.
 
