@@ -235,7 +235,7 @@ class ScreenGrab : GLib.Object {
     string generate_file_name(string dirname, string extn) {
         time_t currtime;
         time_t(out currtime);
-        var fn  = "Wayfarer_%s".printf(Time.local(currtime).format("%F_%H%M%S"));
+        var fn  = "Wayfarer";
         var filepath = string.join(".", fn, extn);
         return Path.build_filename (dirname, filepath);
     }
